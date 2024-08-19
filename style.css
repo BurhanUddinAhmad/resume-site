@@ -10,7 +10,7 @@
     margin: auto;
 }
 
-h2 {
+h3 {
     font-size: 3rem;
     color: #b57f12;
 }
@@ -63,3 +63,65 @@ h1 {
     background: #aa9d9d;
 }
 
+#why-web-dev {
+    background: #f8f2f2;
+    margin: 5rem 0;
+    padding: 6rem;
+    border-radius: 1rem;
+}
+
+.headline {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.headline h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.headline p {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+    color: #a29393;
+}
+
+.point {
+    background: linear-gradient(to right, white, #f8f2f2);
+    padding: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.point:nth-child(2) {
+    background: linear-gradient(to right, #f8f2f2, white);
+    justify-content: start;
+
+}
+.pic {
+    margin-right: 3rem;
+}
+
+.texts h2 {
+    font-size: 2.2rem;
+    color: #4b4a4a;
+    line-height: 2.6rem;
+    font-weight: 700;
+    
+}
+
+.texts p {
+    font-size: 1.7rem;
+    color: #c3c0c0;
+    margin: 2rem 0;
+    line-height: 2.4rem;
+}
+.texts button {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    font-weight: 800;
+    border-radius: 0;
+    color: #5c5b5b;
+}
