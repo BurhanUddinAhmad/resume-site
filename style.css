@@ -125,3 +125,46 @@ h1 {
     border-radius: 0;
     color: #5c5b5b;
 }
+
+.my-inspiration {
+    margin-bottom: 4rem;
+}
+.video {
+    border: .1rem solid rgb(177, 176, 176);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.video img {
+    width: 100%;
+}
+.current-target {
+    display: flex;
+    justify-content: space-between;
+}
+.targeted-topic {
+    width: 35rem;
+    background: #f6f9e8;
+    padding: 3rem;
+    border-radius: .5rem;
+}
+.targeted-topic:nth-child(2) {
+    background: #f6e9fa;
+}
+.targeted-topic h4 {
+    font-size: 1.8rem;
+    margin: 1.5rem 0;
+    font-weight: bolder;
+}
+.targeted-topic p {
+    font-size: 1.5rem;
+    color: #7a7979;
+    line-height: 2.5rem;
+}
+.lrn-more-btn {
+    margin-top: 2rem;
+}
+.targeted-topic a {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e1d1d;
+}
