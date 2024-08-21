@@ -182,3 +182,59 @@ h4 {
     gap: 3rem;
     margin-bottom: 1.5rem;
 }
+
+#need-support {
+    margin-top: 6rem;
+    background: url(./assets/handshake.jpg), linear-gradient(to right, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.5));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+.need-support {
+    padding: 5rem;
+    text-align: center;
+}
+.need-support h2 {
+    color: white;
+}
+.need-support p {
+    color: #e4e0e0;
+}
+.subscribe {
+    display: flex;
+   justify-content: center;
+   gap: 1rem;
+}
+.subscribe .text input {
+    font-size: 1.6rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    width: 50rem;
+}
+.subscribe button {
+    font-size: 1.6rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+}
+footer {
+    background: #f4f9f8;
+    padding: 2rem 0;
+    margin-top: 6rem;
+}
+.contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h6 {
+    font-size: 2rem;
+    color: #4b4a4a;
+}
+.social {
+    display: flex;
+    gap: 1rem;
+}
