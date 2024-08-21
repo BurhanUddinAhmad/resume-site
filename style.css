@@ -150,12 +150,13 @@ h1 {
 .targeted-topic:nth-child(2) {
     background: #f6e9fa;
 }
-.targeted-topic h4 {
-    font-size: 1.8rem;
+h4 {
+    font-size: 2rem;
     margin: 1.5rem 0;
-    font-weight: bolder;
+    font-weight: 800;
 }
-.targeted-topic p {
+.targeted-topic p,
+.next-target p {
     font-size: 1.5rem;
     color: #7a7979;
     line-height: 2.5rem;
@@ -163,8 +164,21 @@ h1 {
 .lrn-more-btn {
     margin-top: 2rem;
 }
-.targeted-topic a {
-    font-size: 2rem;
-    font-weight: 700;
+.targeted-topic a, 
+.next-target a {
+    font-size: 1.6rem;
+    font-weight: 600;
     color: #1e1d1d;
+}
+#next-target {
+    margin-top: 6rem;
+}
+.next-topic {
+    border: .1rem solid #b1b0b0;
+    border-radius: 1rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
 }
